@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+
+form {
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+body {
+    background-color: rgb(145, 187, 160);
+}
+
+.form-campo input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+form button {
+    margin-top: 16px;
+    width: 100px;
+    height: 34px;
+    cursor: pointer;
+    padding: 6px;
+    font-size: large;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: rgb(56, 133, 210);
+    color: #fff;
+}
